@@ -1,8 +1,25 @@
 .screen-out {
-  position: absolute;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  overflow: hidden;
-  text-indent: -9999px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.scroll-x {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	// 모바일에서 터치로 스크롤을 했을 때 가속도가 생김
+	-webkit-overflow-scrolling: touch;
+	// 스크롤바 감추기
+	// IE
+	-ms-overflow-style: none;
+	// FF
+	scrollbar-width: none;
+	// Chrome
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
