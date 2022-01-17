@@ -14,7 +14,6 @@
 		font-weight: 700;
 		letter-spacing: -0.3px;
 		color: $booking-color-text6;
-
 		.ico-n-logo {
 			margin-right: 6px;
 			width: 24px;
@@ -27,7 +26,6 @@
 	display: flex;
 	align-items: center;
 	margin-top: 12px;
-
 	.tab-switch {
 		flex: 1;
 		background-color: $booking-color-bg158;
@@ -46,7 +44,6 @@
 			font-size: 15px;
 			color: $booking-color-text126;
 			box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
-
 			&::after {
 				content: "";
 				position: absolute;
@@ -83,12 +80,10 @@
 	font-size: 14px;
 	letter-spacing: -0.3px;
 	color: #333;
-
 	&.alert {
 		color: $point-color;
 		font-weight: 700;
 	}
-
 	.ico-clock {
 		margin-right: 6px;
 	}
